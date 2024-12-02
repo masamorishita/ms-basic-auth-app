@@ -1,0 +1,131 @@
+{
+	"id": "b658ff34-2019-489b-9f7b-e016bf39bb9e",
+	"deletedDateTime": null,
+	"appId": "55b96221-d39c-43d9-aff0-7bc576862e02",
+	"applicationTemplateId": null,
+	"disabledByMicrosoftStatus": null,
+	"createdDateTime": "2024-11-29T01:05:10Z",
+	"displayName": "MS Auth App",
+	"description": null,
+	"groupMembershipClaims": "None",
+	"identifierUris": [],
+	"isDeviceOnlyAuthSupported": null,
+	"isFallbackPublicClient": null,
+	"nativeAuthenticationApisEnabled": null,
+	"notes": null,
+	"publisherDomain": "yoursup.onmicrosoft.com",
+	"serviceManagementReference": null,
+	"signInAudience": "AzureADandPersonalMicrosoftAccount",
+	"tags": [],
+	"tokenEncryptionKeyId": null,
+	"samlMetadataUrl": null,
+	"defaultRedirectUri": null,
+	"certification": null,
+	"requestSignatureVerification": null,
+	"addIns": [],
+	"api": {
+		"acceptMappedClaims": null,
+		"knownClientApplications": [],
+		"requestedAccessTokenVersion": 2,
+		"oauth2PermissionScopes": [],
+		"preAuthorizedApplications": []
+	},
+	"appRoles": [],
+	"info": {
+		"logoUrl": null,
+		"marketingUrl": null,
+		"privacyStatementUrl": null,
+		"supportUrl": null,
+		"termsOfServiceUrl": null
+	},
+	"keyCredentials": [],
+	"optionalClaims": {
+		"accessToken": [
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "email",
+				"source": null
+			}
+		],
+		"idToken": [
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "email",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "preferred_username",
+				"source": null
+			}
+		],
+		"saml2Token": []
+	},
+	"parentalControlSettings": {
+		"countriesBlockedForMinors": [],
+		"legalAgeGroupRule": "Allow"
+	},
+	"passwordCredentials": [
+		{
+			"customKeyIdentifier": null,
+			"displayName": "MS Auth App",
+			"endDateTime": "2025-05-28T01:14:37.396Z",
+			"hint": "bhd",
+			"keyId": "b96a3b54-9b39-4f38-a868-4a830715e86e",
+			"secretText": null,
+			"startDateTime": "2024-11-29T01:14:37.396Z"
+		}
+	],
+	"publicClient": {
+		"redirectUris": []
+	},
+	"requiredResourceAccess": [
+		{
+			"resourceAppId": "00000003-0000-0000-c000-000000000000",
+			"resourceAccess": [
+				{
+					"id": "64a6cdd6-aab1-4aaf-94b8-3cc8405e90d0",
+					"type": "Scope"
+				},
+				{
+					"id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+					"type": "Scope"
+				}
+			]
+		}
+	],
+	"verifiedPublisher": {
+		"displayName": null,
+		"verifiedPublisherId": null,
+		"addedDateTime": null
+	},
+	"web": {
+		"homePageUrl": null,
+		"logoutUrl": null,
+		"redirectUris": [],
+		"implicitGrantSettings": {
+			"enableAccessTokenIssuance": true,
+			"enableIdTokenIssuance": true
+		},
+		"redirectUriSettings": []
+	},
+	"servicePrincipalLockConfiguration": {
+		"isEnabled": true,
+		"allProperties": true,
+		"credentialsWithUsageVerify": true,
+		"credentialsWithUsageSign": true,
+		"identifierUris": false,
+		"tokenEncryptionKeyId": true
+	},
+	"spa": {
+		"redirectUris": [
+			"https://ilhpnfuxslmnmafyfkjm.supabase.co/auth/v1/callback",
+			"http://localhost:3000"
+		]
+	},
+	"oauth2AllowImplicitFlow": true,
+	"oauth2AllowIdTokenImplicitFlow": true
+}
